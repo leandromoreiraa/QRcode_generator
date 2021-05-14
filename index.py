@@ -3,7 +3,7 @@ import png
 from pyqrcode import QRCode
 
 #link para o qrcode
-qrstring = 'link que desejar'
+qrstring = ''
 
 #monta o qrcode
 url = pyqrcode.create(qrstring)
